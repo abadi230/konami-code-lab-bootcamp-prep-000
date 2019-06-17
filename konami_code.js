@@ -15,7 +15,7 @@ function init() {
   // your code here
   const body = document.querySelector('body');
   let index = 0;
-  function onKeyDownHandler(e){
+  body.addEventListener(function(e){
     const key = e.key;
     if(key === codes[index]){
       index++;
