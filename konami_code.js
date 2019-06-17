@@ -15,5 +15,9 @@ function init() {
   // your code here
   const body = document.querySelector('body');
   
-  body.addEventListener(codes, fonction())
+  body.addEventListener(codes[0], fonction(e){
+    if(e.key === codes[0]){
+     alert('Congratulations') 
+    }
+  });
 }
