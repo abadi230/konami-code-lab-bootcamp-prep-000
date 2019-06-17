@@ -14,5 +14,5 @@ const codes = [
 function init() {
   // your code here
   const body = document.querySelector('body');
-  function 
+  body.addEventListener(codes)
 }
