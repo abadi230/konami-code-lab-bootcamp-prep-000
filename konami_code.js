@@ -31,11 +31,3 @@ function init() {
   });
 }
 
-// init();
-
-//   body.addEventListener(codes[0], fonction(e){
-//     if(e.key === codes[0]){
-//     alert('Congratulations') 
-//     }
-//   });
-// }
