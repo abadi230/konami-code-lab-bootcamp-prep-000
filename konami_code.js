@@ -29,9 +29,9 @@ function init() {
       index = 0;
     }
   }
-  body.addEventListener(codes[0], fonction(e){
-    if(e.key === codes[0]){
-     alert('Congratulations') 
-    }
-  });
-}
+//   body.addEventListener(codes[0], fonction(e){
+//     if(e.key === codes[0]){
+//     alert('Congratulations') 
+//     }
+//   });
+// }
